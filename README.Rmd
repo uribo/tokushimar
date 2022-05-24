@@ -7,15 +7,13 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<p align="center"><img src='img/thumbnail.png' width=600 /></p>
 
 「徳島データサイエンス・機械学習勉強会」の日程・プログラム等をまとめるためのリポジトリです。
 
-### 次回予告
+### 過去の開催
 
 - 日時: 2022年5月22日（日曜日） 13:00 ~ 16:00
-- 形式: 対面（発表者のみ）とオンライン配信（ https://youtu.be/afh7Db8m6Q4 ）のハイブリッド
-
-<p align="center"><img src='img/thumbnail.png' width=600 /></p>
 
 ```{r}
 #| eval = TRUE,
@@ -23,10 +21,10 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::kable(
   tibble::tribble(
   ~発表者, ~題目, ~資料,
-  "M.R", "GROBIDを用いて論文PDF翻訳補助ツールを作成する", NA_character_,
+  "M.R", "GROBIDを用いて論文PDF翻訳補助ツールを作成する", "https://speakerdeck.com/matsumototo180/grobidwoyong-itelun-wen-pdffan-yi-bu-zhu-turuwozuo-cheng-suru",
   "T.S", "農業分野における深層学習による計測について", NA_character_,
   "I.M", "さようなら Shift_JIS - RMeCabの場合 -", NA_character_,
-  "uribo", "Quartoを使ってみませんか", NA_character_,
+  "uribo", "Quartoを使ってみませんか", "https://speakerdeck.com/s_uryu/quarto-get-started",
   "I.K", "私のRの活用法", NA_character_
 ),
   format = "markdown")
